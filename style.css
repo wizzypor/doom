@@ -1,0 +1,312 @@
+.body {
+	margin: 0;
+}
+@font-face {
+	font-family: doom;
+	src: url(AmazDooMLeft.ttf);
+}
+.font {
+	font-family: 'Cuprum', sans-serif;
+}
+.nlink {
+	font-size: 11px;
+	font-style: italic;
+	color: #a3a3a3;
+}
+
+/* HEADER */
+.header-bg {
+	width: 100%;
+	height: 45px;
+	background-color: #5c0101;
+	margin: 0 auto;
+	display: flex;
+	padding-top: 10px;
+	position: fixed;
+}
+.header {
+	width: 1200px;
+	margin: 0 auto;
+	height: 45px;
+	background-color: none;
+	display: flex;
+}
+.logo-box {
+	width: 90px;
+	height: 40px;
+	background-color: none;
+	margin-left: 50px;
+}
+.header-links {
+	width: 900px;
+	height: 45px;
+	margin-left: 160px;
+	background-color: none
+}
+.header-text {
+	color: white;
+	font-family: doom;
+	font-size: 45px;
+	margin-left: 40px;
+	text-decoration: none;
+	line-height: 45px;
+}
+.header-text:hover {
+	color: #d1d1d1;
+}
+.link {
+	color: white;
+	text-decoration: none;
+}
+/*neHEADER*/
+.bg {
+	background-color: green;
+	background-image: url(https://store-images.s-microsoft.com/image/apps.58687.66369488278878243.ec79caa5-91db-490f-a3b1-ba4d5283dd17.e9d0eace-9c71-4276-a4fa-6afe85d79bcf?mode=scale&q=90&h=1080&w=1920);
+	padding-top: 10px;
+	background-size: 100% 100%;
+	padding-bottom: 105px;
+}
+	.main {
+		width: 1200px;
+		height: 1005px;
+		background-color: none;
+		margin: 0 auto;
+		border-radius: 5px;
+	}
+		.banner {
+			background-color: #5c010150;
+			width: 1200px;
+			height: 450px;
+			padding-top: 200px;
+			background-image: url(https://3dnews.ru/assets/external/illustrations/2020/10/19/1023288/01.jpg);
+			background-size: 100% 100%;
+			border: 2px solid #5c0101;
+		}
+			.banner-box {
+				margin-left: 100px;
+				height: 170px;
+				width: 350px;
+				background-color: none;
+			}
+				.banner-t-b {
+					width: 350px;
+					height: 105px;
+					background-color: none;
+					font-size: 39px;
+					color: white;
+					font-family: 'Cuprum', sans-serif;
+					text-shadow: black 1px;
+				}
+				.banner-btn {
+					width: 250px;
+					height: 75px;
+					background-color: #5c0101;
+					font-size: 30px;
+					color: white;
+					border: none;
+					font-family: 'Cuprum', sans-serif;
+					text-shadow: black 1px;
+					border-radius: 3px;
+					cursor: pointer;
+				}
+				.img-link {
+
+				}
+				.banner-btn:hover {
+							background-color: #470101;
+							border: 1px solid black;
+						}
+
+		.ctg {
+			width: 1200px;
+			height: 400px;
+			background-color: #5c010199;
+			padding-top: 50px;
+			margin-top: 5px;
+			display: flex;
+		}
+			.ctg-box-prnt {
+				width: 1000px;
+				height: 350px;
+				margin: 0 auto;
+				background-color: none;
+				display: flex;
+			}
+
+					.ctg-box-img {
+						width: 250px;
+						height: 280px;
+						background-color: none;
+						text-align: center;
+						color: white;
+						border: black;
+						font-size: 25px;
+						text-decoration: none;
+					}
+					.ctg-img {
+						width: 250px;
+						height: 250px;
+					}
+					.ctg-img:hover {
+						width: 256px;
+						height: 256px;
+						transition: 0.4s ease;
+						border: 1px white solid;
+						margin-left: -3px;
+					}
+						
+					.marg-l-125 {
+						margin-left: 125px;
+					}
+	.main-2 {
+		width: 1200px;
+		height: 1020px;
+		background-color: #5c010199;
+		margin: 0 auto;
+		padding-top: 100px;
+		border-radius: 5px;
+	}
+
+		.h1-box {
+			margin-left: 100px;
+			width: 300px;
+			height: 50px;
+			background-color: none;
+			color: white;
+		}
+		.text-box {
+			width: 1150px;
+			background-color: #5c010150;
+			margin-top: 50px;
+			margin-left: auto;
+			margin-right: auto;
+			color: white;
+			font-size: 24px;
+			padding: 10px 0;
+			border-radius: 5px;
+			border: 1px solid  #5c0101;
+		}
+		.list {
+			width: 1200px;
+			height: 660px;
+			margin-top: 100px;
+			background-color: none;
+		}
+			.list-box {
+				width: 1200px;
+				height: 300px;
+				background-color: #5c010180;
+				display: flex;
+				padding-bottom: 10px;
+			}
+			.marg-t-60 {
+				margin-top: 50px;
+			}
+			.list-img-box {
+				width: 300px;
+				height: 300px;
+				border-right: 1px solid black
+			}
+				.list-img {
+					width: 250px;
+					height: 250px;
+					background-color: none;
+					margin: 0 auto;
+				}
+				.list-text {
+					width: 300px;
+					height: 50px;
+					background-color: none;
+					color: white;
+					text-align: center;
+					font-size: 23px;
+				}
+			.trash {
+				margin: 0 auto;
+				width: 200px;
+				height: 200px;
+				background-color: none;
+				cursor: pointer;
+			}
+			.trash-img {
+				width: 200px;
+				height: 200px;
+			}
+			.trash-img:hover {
+				width: 210px;
+				height: 210px;
+				margin-left: -5px;
+				transition: 0.4s ease;
+			}
+.mus-list {
+	width: 1200px;
+	height: 380px;
+	margin-top: 100px;
+	background-color: #5c010180;
+	display: flex;
+}
+	.marg-l-10 {
+		margin-left: 10px;
+	}
+	.marg-mid {
+		margin: 0 auto;
+		display: flex;
+	}
+
+
+.main4 {
+	width: 1200px;
+	height: 923px;
+	background-color: #5c010199;
+	margin: 0 auto;
+	padding-top: 100px;
+	border-radius: 5px;
+}
+	.merch-box {
+		width: 1150px;
+		height: 850px;
+		margin: 0 auto;
+		background-color: none;
+	}
+		.merch-line {
+			width: 1150px;
+			height: 402px;
+			background-color: #5c010199;
+			display: flex;
+		}
+		.m-t-50 {
+			margin-top: 50px;
+		}
+			.merch-product {
+				width: 250px;
+				height: 400px;
+				border: 1px solid #5c0101;
+
+			}
+			.m-l-40 {
+				margin-left: 47px;
+			}
+			.merch-img {
+				width: 225px;
+				height: 295px;
+				margin-left: 12px;
+			}
+			.merch-title {
+				width: 245px;
+				height: 55px;
+				color: white;
+				line-height: 30px;
+				text-align: center;
+				font-size: 15px;
+			}
+			.merch-btn {
+				width: 120px;
+				height: 45px;
+				margin: 0 auto;
+				background-color: #5c0101;
+				color: white;
+				text-align: center;
+				margin-left: 125px;
+				border: 1px solid black;
+				cursor: pointer;
+			}
